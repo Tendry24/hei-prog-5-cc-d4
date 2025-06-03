@@ -68,5 +68,4 @@ abstract class AbstractToyFactory {
 }
 
 $myToy = AbstractToyFactory::makeToy(new CarFactory(), "child");
-var_dump($myToy);die();
-$myToy.play();
+$myToy->play();
